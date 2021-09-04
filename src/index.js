@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+import ResponsiveTileGrid from "./pages/ResponsiveTileGrid";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ResponsiveTileGrid />
   </React.StrictMode>,
   document.getElementById('root')
 );
