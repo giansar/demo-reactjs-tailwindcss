@@ -23,4 +23,4 @@ function ResponsiveTileGrid() {
     )
 }
 
-export default ResponsiveTileGrid;
+export default ResponsiveTileGrid

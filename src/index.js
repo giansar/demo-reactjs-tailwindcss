@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
-import ResponsiveTileGrid from "./pages/ResponsiveTileGrid";
+import GlowingBackgroundGradientEffects from "./pages/GlowingBackgroundGradientEffects";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ResponsiveTileGrid />
+    <GlowingBackgroundGradientEffects />
   </React.StrictMode>,
   document.getElementById('root')
 );
