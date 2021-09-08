@@ -1,5 +1,7 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
-  mode: "jit",
+  //mode: "jit",
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -12,7 +14,14 @@ module.exports = {
       '2xl': '1536px'
     },
     extend: {
-      animation: {
+
+      //For InstagramStories.js
+      colors: {
+        fuchsia: colors.fuchsia
+      }
+
+      //For GlowingBackgroundGradientEffects.js
+      /*animation: {
         tilt: "tilt 10s infinite linear"
       },
       keyframes: {
@@ -27,7 +36,7 @@ module.exports = {
             transform: "rotate(-1deg)"
           }
         }
-      }
+      }*/
     },
   },
   variants: {

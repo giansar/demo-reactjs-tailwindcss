@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
-import GlowingBackgroundGradientEffects from "./pages/GlowingBackgroundGradientEffects";
+import InstagramStories from "./pages/InstagramStories";
 
 ReactDOM.render(
   <React.StrictMode>
-    <GlowingBackgroundGradientEffects />
+    <InstagramStories />
   </React.StrictMode>,
   document.getElementById('root')
 );
