@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
-import InstagramStories from "./pages/InstagramStories";
+import BlurryAnimatedBackground from "./pages/BlurryAnimatedBackground";
 
 ReactDOM.render(
   <React.StrictMode>
-    <InstagramStories />
+    <BlurryAnimatedBackground />
   </React.StrictMode>,
   document.getElementById('root')
 );
