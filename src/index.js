@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
-import BlurryAnimatedBackground from "./pages/BlurryAnimatedBackground";
+import StylingForms from "./pages/StylingForms";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BlurryAnimatedBackground />
+    <StylingForms />
   </React.StrictMode>,
   document.getElementById('root')
 );

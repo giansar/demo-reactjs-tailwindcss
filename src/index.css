@@ -19,6 +19,8 @@
     }
 }*/
 
+/*For BlurryAnimatedBackground.js*/
+/*
 @layer utilities {
     .animation-delay-2000 {
         animation-delay: 2s;
@@ -26,5 +28,19 @@
 
     .animation-delay-4000 {
         animation-delay: 4s;
+    }
+}*/
+
+@layer base {
+    [type='email'],
+    [type='password'],
+    [multiple],
+    select {
+        @apply w-full border-gray-300 rounded-lg shadow-sm focus:border-indigo-500 focus:ring-indigo-500
+    }
+
+    [type='checkbox'],
+    [type='radio'] {
+        @apply rounded border-gray-300 text-indigo-600 focus:ring-indigo-500
     }
 }

@@ -14,7 +14,9 @@ module.exports = {
             '2xl': '1536px'
         },
         extend: {
-            animation: {
+
+            //For BlurryAnimatedBackground.js
+            /*animation: {
                 blob: "blob 7s infinite"
             },
             keyframes: {
@@ -32,7 +34,7 @@ module.exports = {
                         transform: "translate(0px, 0px) scale(1)"
                     }
                 }
-            }
+            }*/
 
             //For InstagramStories.js
             /*colors: {
@@ -61,5 +63,5 @@ module.exports = {
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [require('@tailwindcss/forms')],
 }
